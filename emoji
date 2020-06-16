@@ -1,0 +1,20 @@
+message=input(">")
+words=message.split(" ")
+transformer={
+    'love':'🧡',
+    ':)':'😀',
+    'cry':'😥',
+    'pizza':'🍕',
+    'burgger':'🍔',
+    'french-fries':'🍟',
+    'hot-dog':'🌭',
+    'car':'🚗',
+    'sleeping':'💤',
+    'sleep':'💤'
+}
+output=" "
+for word in words:
+    output+=transformer.get(word,word)+" "
+print(output)
+
+#sample: I love pizza    Output: I 🧡 🍕
