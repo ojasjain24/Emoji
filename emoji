@@ -17,4 +17,3 @@ for word in words:
     output+=transformer.get(word,word)+" "
 print(output)
 
-#sample: I love pizza    Output: I 🧡 🍕
